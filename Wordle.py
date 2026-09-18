@@ -30,7 +30,7 @@ def print_one():
 		print(red + guess_one.lower()[1] + reset, end='')
 
 	if guess_one.lower()[2] == word[2]:
-		print(green + word[0] + reset, end='')
+		print(green + word[2] + reset, end='')
 		correct += 1
 	elif guess_one.lower()[2] in word:
 		print(yellow + guess_one.lower()[2] + reset, end='')
@@ -75,7 +75,7 @@ def print_two():
 		print(red + guess_two.lower()[1] + reset, end='')
 
 	if guess_two.lower()[2] == word[2]:
-		print(green + word[0] + reset, end='')
+		print(green + word[2] + reset, end='')
 		correct += 1
 	elif guess_two.lower()[2] in word:
 		print(yellow + guess_two.lower()[2] + reset, end='')
@@ -119,7 +119,7 @@ def print_three():
 		print(red + guess_three.lower()[1] + reset, end='')
 
 	if guess_three.lower()[2] == word[2]:
-		print(green + word[0] + reset, end='')
+		print(green + word[2] + reset, end='')
 		correct += 1
 	elif guess_three.lower()[2] in word:
 		print(yellow + guess_three.lower()[2] + reset, end='')
@@ -163,7 +163,7 @@ def print_four():
 		print(red + guess_four.lower()[1] + reset, end='')
 
 	if guess_four.lower()[2] == word[2]:
-		print(green + word[0] + reset, end='')
+		print(green + word[2] + reset, end='')
 		correct += 1
 	elif guess_four.lower()[2] in word:
 		print(yellow + guess_four.lower()[2] + reset, end='')
@@ -207,7 +207,7 @@ def print_five():
 		print(red + guess_five.lower()[1] + reset, end='')
 
 	if guess_five.lower()[2] == word[2]:
-		print(green + word[0] + reset, end='')
+		print(green + word[2] + reset, end='')
 		correct += 1
 	elif guess_five.lower()[2] in word:
 		print(yellow + guess_five.lower()[2] + reset, end='')
@@ -249,7 +249,7 @@ def print_six():
 		print(red + guess_six.lower()[1] + reset, end='')
 
 	if guess_six.lower()[2] == word[2]:
-		print(green + word[0] + reset, end='')
+		print(green + word[2] + reset, end='')
 		correct += 1
 	elif guess_six.lower()[2] in word:
 		print(yellow + guess_six.lower()[2] + reset, end='')
