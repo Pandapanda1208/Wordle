@@ -1,9 +1,14 @@
 import os
 import random
 import sys
+import json
 
 def clear():
 	os.system('cls' if os.name == 'nt' else 'clear')
+
+with open('words.json', 'r') as f:
+	data = json.load(f)
+
 
 clear()
 
@@ -273,8 +278,7 @@ def print_six():
 
 
 
-words = ['hello', 'world']
-word = random.choice(words)
+word = random.choice(data['words'])
 
 for i in range(6):
 	print('* * * * *')
